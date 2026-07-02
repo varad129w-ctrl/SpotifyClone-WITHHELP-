@@ -2,7 +2,7 @@ console.log("hello there");
 
 //! GET PLAYLISTS
 async function getplaylist() {
-    let folder = await fetch("http://127.0.0.1:5500/songs/");
+    let folder = await fetch("/songs/");
     let Response = await folder.text();
 
     let div = document.createElement("div");
@@ -26,7 +26,7 @@ async function getplaylist() {
 
 //! GET SONGS 
 async function getsongs(PlaylistName) {
-    let song = await fetch(`http://127.0.0.1:5500/songs/${PlaylistName}/`);
+    let song = await fetch(`/songs/${PlaylistName}/`);
     let Response = await song.text();
 
     let div = document.createElement("div");
@@ -68,7 +68,7 @@ let currentSongs = [];
 //! PLAY MUSIC
 const PlayMusic = (track, folder, pause = false) => {
     currentFolder = folder; // always update currentFolder when playing
-    audio.src = `http://127.0.0.1:5500/songs/${folder}/${track}.mp3`;
+    audio.src = `/songs/${folder}/${track}.mp3`;
     if (!pause) {
         audio.play();
         Play.src = "../SVGs/pause.svg";
