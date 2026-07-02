@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../UtilityClasses/UtilityClasses.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Black+Ops+One&family=Chelsea+Market&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="webpage">
+        <nav class="navbar flex alignitems justifycenter">
+            <!-- <div>
+                <img src="../SVGs/Hamburger.svg" alt="">
+            </div> -->
+            <div id="logo">
+                <img src="../Imgs/logo.jpg" alt="img">
+            </div>
+            <div id="home">
+                <img id = "Hamburger" src="../SVGs/Hamburger.svg" alt="Extend">
+                <img id = "homeicon" src="../Imgs/homeiconn.png" alt="Home">
+            </div>
+            <div id="search">
+                <input type="search" name="search" id="search" placeholder="Want Do You Want to Play ?">
+            </div>
+            <button id="Sbutton">
+                <a href="">Sign Up</a>
+            </button>
+            <button id="Sbutton1">
+                <a href="">Login</a>
+            </button>
+        </nav>
+        <div class="left flex">
+            <header id="leftheader" class="flex">
+                <h3>My Library</h3>
+                <button class="createbutton">Create</button>
+            </header>
+            <section id="sectionleft1" class="flex">
+                <h4>Create Your Own Playlist</h4>
+                <p>You can create a Playlist to enjoy Continous Songs.</p>
+                <button>Create Playlist</button>
+            </section>
+            <section id="sectionleft2" class="flex">
+                <h4>Listen Playlist</h4>
+                <p>You can Listen to Popular Podcast at Anytime , AnyWhere.</p>
+                <button>Create Podcast</button>
+            </section>
+            <section id="sectionlefttoggle" class="flex">
+                <div class="Songlist flex">
+                    <ul>
+                        <!-- added automaticlly -->
+                    </ul>
+                </div>
+            </section>
+            <div id="legals">
+                <ul class="flex">
+                    <li class="legalnames">
+                        <a href="">Legal</a>
+                    </li>
+                    <li class="legalnames">
+                        <a href="">Safety & Privacy</a>
+                    </li>
+                    <li class="legalnames">
+                        <a href="">Privacy & Policy</a>
+                    </li>
+                    <li class="legalnames">
+                        <a href="">Cookies</a>
+                    </li>
+                    <li class="legalnames">
+                        <a href="">About</a>
+                    </li>
+                    <li class="legalnames">
+                        <a href="">Accessiblity</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right flex">
+            <section id="rightsection1">
+                <h1><a id="MyLibraryToggle" href="">My Playlists</a></h1>
+                <section class="cards">
+                    <div class="titleofcard">
+                        <img class = "img1" src="../Imgs/cover.jpg" alt="">
+                        <div class="title">Playlist1</div>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                    <div class="titleofcard">
+                        <img class= "img1" src="../Imgs/Kisna.jpg" alt="">
+                        <div class="title">Playlist2</div>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                    <div class="titleofcard">
+                        <img class= "img1" src="../Imgs/Tamasha.jpg" alt="">
+                        <div class="title">Playlist3</div>
+                        <p>kishor dada , honey</p>
+                    </div>
+                    <div class="titleofcard">
+                        <img class= "img1" src="../Imgs/Bairan.jpg" alt="">
+                        <div class="title">adfal</div>
+                        <p>kishor dada , honey</p>
+                    </div>
+                    <div class="titleofcard">
+                        <img class= "img1" src="../Imgs/Heeriye.jpg" alt="">
+                        <div class="title">adfal</div>
+                        <p>kishor dada , honey</p>
+                    </div>
+                </section>
+                <section class="playback">
+                    <div class="seekbar">
+                        <div class="circle">
+                            
+                        </div>
+                    </div>
+                    <div class="songinfo">
+                        hello there 
+                    </div>
+                    <div class="songbuttons">
+                        <img id ="Previous" src="../SVGs/previous.svg" alt="Play">
+                        <img id ="Play" src="../SVGs/play.svg" alt="Play">
+                        <img id ="Next" src="../SVGs/next.svg" alt="Play">
+                    </div>
+                        <div class="songtime">
+                            00:00/00:00
+                        </div>
+                </section>
+            </section>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

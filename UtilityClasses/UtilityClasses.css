@@ -1,0 +1,26 @@
+.border{
+    border: 2px solid red;
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+}
+
+.justifycenter{
+    justify-content: center;
+}
+.alignitems{
+    align-items: center;
+}
+:root {
+  --main-color: #000000;
+  --sub-color: #2f2e2e;
+  --sub-hovercolor : #494949;
+  --sub-hoverback : #656565;
+  --sub-back : rgb(26, 26, 26);
+}
