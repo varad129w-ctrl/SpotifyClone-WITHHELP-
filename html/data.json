@@ -1,0 +1,30 @@
+{
+    "playlists": [
+        {
+            "name": "Playlist1",
+            "songs": [
+                "Agar Tum Saath Ho",
+                "alexguz-funk-amp-breakbeat-541097",
+                "Gehra Hua",
+                "grand_project-wonders-of-the-earth-550792",
+                "Khat",
+                "Kisna",
+                "Mere Humnava",
+                "mickeyscat-moment-of-peace-mickeyscat-554494",
+                "sigmamusicart-no-copyright-music-537751"
+            ]
+        },
+        {
+            "name": "Playlist2",
+            "songs": [
+                "Bairan"
+            ]
+        },
+        {
+            "name": "Playlist3",
+            "songs": [
+                "Phir Se"
+            ]
+        }
+    ]
+}
